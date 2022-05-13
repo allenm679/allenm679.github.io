@@ -103,7 +103,9 @@ p{
 }
 
 .social{
-    margin: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    justify-content: center;
 }
 
 .sub-section{
@@ -117,6 +119,8 @@ p{
     flex-direction: column;
     text-align: center;
     padding: 80px;
+    background-color: #1c1d25;
+    color: #ffffff;
 }
 
 .headshot {
@@ -132,13 +136,14 @@ p{
 .project-card{
     width: 2000px;
     height: 800px;
-    box-shadow: 5px 5px 20px gray;
+    /* box-shadow: 5px 5px 20px gray; */
     margin: 10px;
 }
 
 .project-container{
     display: flex;
     justify-content: space-around;
+    color: #ffffff;
 }
 
 @media only screen and (max-width: 1000px){
@@ -169,3 +174,9 @@ a{
     text-decoration: none;
     color: white;
 }
+
+.sub-section-alt2{
+    height: 100vh;
+    background-color: white;
+}
+
