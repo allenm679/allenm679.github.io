@@ -104,8 +104,8 @@ p{
 
 .social{
     display: flex;
-    justify-content: space-evenly;
     justify-content: center;
+    padding-left: 50px;
 }
 
 .sub-section{
@@ -176,7 +176,60 @@ a{
 }
 
 .sub-section-alt2{
-    height: 100vh;
+    height: 80vh;
     background-color: white;
+    display: flex;
+    /* text-align: center;
+    justify-content: center; */
+}
+
+
+.devicon-javascript-plain{
+    font-size: 60px;
+    display: flex;
+}
+.devicon-html5-plain{
+    font-size: 60px;
+    display: flex;
+}
+
+.devicon-css3-plain{
+    font-size: 60px;
+    display: flex;
+}
+
+.devicon-postgresql-plain{
+    font-size: 60px;
+    display: flex;
+}
+
+.devicon-express-original{
+    font-size: 60px;
+    display: flex;
+}
+
+.devicon-nodejs-plain{
+    font-size: 60px;
+    display: flex;
+}
+
+.devicon-git-plain{
+    font-size: 60px;
+    display: flex;
+}
+
+.devicon-vscode-plain{
+    font-size: 60px;
+    display: flex;
+}
+
+.devicon-heroku-plain{
+    font-size: 60px;
+    display: flex;
+}
+
+.logo{
+    display: flex;
+    flex-direction: row;
 }
 
